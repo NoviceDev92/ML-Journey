@@ -30,4 +30,12 @@ This repository documents my projects and progress in machine learning. It conta
     * **Cross-Entropy Loss:** A standard loss function used to measure the performance of a classification model.
     * **Gradient Descent:** An iterative optimization algorithm used to minimize the loss function and learn the model's parameters.
 
+### 4. GDA (Gaussian Discriminant Analysis)
+
+* **Description:** An implementation of a generative GDA model for a classification task, with a focus on statistical assumptions.
+* **Methods Used:**
+    * **Bayes' Theorem:** The fundamental principle used to calculate the posterior probability for each class.
+    * **Multivariate Gaussian Distribution:** A statistical assumption that the data for each class follows a specific distribution, used to calculate likelihood.
+    * **Log-Likelihood:** A numerically stable method for calculating probabilities that avoids floating-point underflow.
+
 Feel free to explore the notebooks and provide feedback!
